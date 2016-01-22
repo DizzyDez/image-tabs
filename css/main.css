@@ -22,17 +22,19 @@ html {
   position: relative;
   padding-top: 52.6%;
 }
+
 .tabs {
   margin: 0;
   padding: 0;
   list-style-type: none;
   position: absolute;
   left: calc(50% - 1em);
-
 }
+
 .tabs > li {
   display: inline-block;
 }
+
 .tabs a {
   display: inline-block;
   color: #000;
@@ -43,19 +45,23 @@ html {
   transition: all 500ms linear;
   position: relative;
 }
+
 .tabs a:hover {
   background-color: darkgrey;
   color: #fff;
 }
+
 img {
   width: 100%;
 }
+
 .panel {
   display: none;
   position: absolute;
   top: 0;
   width: 100%;
 }
+
 .panel:target {
   display: block;
 }
